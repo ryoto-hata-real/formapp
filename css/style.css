@@ -1,0 +1,32 @@
+.list--style__none{
+  list-style: none;
+}
+
+html {
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table;
+}
+ 
+body {
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+ 
+#content a{
+  color: #fff;
+  max-width: 540px;
+	font-size:120%;
+	background: #c3c4c2;
+	border-radius: 5px;
+	vertical-align:middle;
+	padding:20px;
+	box-shadow: 0 5px 5px #ccc;
+}
+#content a:hover {
+	background: #467d05;
+}
